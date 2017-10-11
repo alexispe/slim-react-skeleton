@@ -1,4 +1,4 @@
-# SLIM-SKELETON
+# SLIM-REACT-SKELETON
 
 [![N|Solid](https://i.imgur.com/i7CZ4qC.png)](http://alexis-petit.fr)
 
