@@ -11,10 +11,10 @@ export default class Home extends React.Component {
   }
 
   componentWillMount() {
-    ClientStore.on("change", this.getTodos);
+    ClientStore.on("change", this.getClients);
   }
   componentWillUnmount() {
-    ClientStore.removeListener("change", this.getTodos);
+    ClientStore.removeListener("change", this.getClients);
   }
 
   getClients() { this.setState({ clients: ClientStore.getAll() }); }
